@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+nav {
+  background: none;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 92px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  position: relative;
+}
+
+a.link-sm {
+  color: #717171;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+button.btn-primary {
+  background: #1b4965;
+  border: none;
+  padding: 10px 35px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.nav-brand {
+  position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.nav-links {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section.hero {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ill-hero img {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -999;
+}
+
+img.il-hero {
+  top: 20%;
+  right: 5%;
+}
+
+.text-heading {
+  width: 40%;
+  padding-top: 124px;
+}
+
+h1.hero-heading {
+  font-size: 64px;
+  color: #000;
+  padding-bottom: 40px;
+}
+
+p.text-p {
+  font-size: 20px;
+  color: #636161;
+  line-height: 1.5;
+  padding-bottom: 40px;
+}
+
+.btn-secondary {
+  background: transparent;
+  border-color: #1b4965;
+  padding: 10px 35px;
+  font-size: 20px;
+  font-weight: 400;
+  border-radius: 100px;
+  cursor: pointer;
+}
