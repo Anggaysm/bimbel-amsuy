@@ -106,3 +106,84 @@ p.text-p {
   border-radius: 100px;
   cursor: pointer;
 }
+
+.btn-secondary:hover {
+  background: #1b4965;
+  color: #fff;
+}
+
+.features {
+  margin-top: 400px;
+}
+
+.title {
+  width: 100%;
+  display: flex;
+  height: 30vh;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title h1 {
+  font-size: 56px;
+}
+
+.title p {
+  font-size: 20px;
+  color: #636161;
+  padding-bottom: 40px;
+  margin-top: 20px;
+}
+
+.row-3-col {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  padding: 50px 0px;
+}
+
+.col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.col h3 {
+  font-size: 24px;
+  margin-left: 30px;
+  color: #636161;
+}
+
+.Typography {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 250px 10px;
+}
+
+.img-typography {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text-typography {
+  width: 100%;
+}
+
+.text-typography h1 {
+  font-size: 64px;
+  color: #000;
+  padding-bottom: 40px;
+}
+
+.text-typography p {
+  width: 85%;
+  font-size: 20px;
+  color: #636161;
+  line-height: 1.5;
+  padding-bottom: 40px;
+}
