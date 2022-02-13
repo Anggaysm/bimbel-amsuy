@@ -187,3 +187,37 @@ p.text-p {
   line-height: 1.5;
   padding-bottom: 40px;
 }
+
+.Typo2 {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 250px 10px;
+}
+
+.img-typo2 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding-left: 30px;
+}
+
+.text-typo2 {
+  width: 100%;
+  padding-left: 80px;
+}
+
+.text-typo2 h1 {
+  font-size: 64px;
+  color: #000;
+  padding-bottom: 40px;
+}
+
+.text-typo2 p {
+  width: 85%;
+  font-size: 20px;
+  color: #636161;
+  line-height: 1.5;
+  padding-bottom: 40px;
+}
